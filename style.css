@@ -1,0 +1,117 @@
+body {
+    font-family: Arial,  sans-serif; /* Familia de fuentes */
+    font-size: px; /* El tamaño de la fuente principal en el tag <p></p> */
+    background-color: #f0f0f0; /* El color del fondo de la página web */
+    color: #333333; /* El color del texto*/ 
+}
+h1 {
+    color: #00a800; /* El color de la cabecera */
+    font-size: 24px; /* El tamaño de la fuente de la cabecera */
+    font-family: Georgia, serif; /* La familia tipográfica utilizada en la cabecera */
+}
+
+p {
+    color: darkmagenta;
+    font-size: 32px;
+    font-family: 'Franklin Gothic Medium', sans-serif;
+
+}
+
+h2{
+    color: aquamarine;
+    font-size: 28px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+li {
+    color: chocolate;
+    font-size: 18px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+}
+
+@keyframes color-change {
+    0% {
+      color: blue;
+    }
+  
+    50% {
+      color: red;
+    }
+  
+    100% {
+      color: blue;
+    }
+}
+
+h1:hover {
+    animation: color-change 3s infinite;
+}
+
+@keyframes solor-change {
+    0% {
+      color: rgb(22, 97, 34);
+    }
+  
+    50% {
+      color: rgba(211, 224, 22, 0.24);
+    }
+  
+    100% {
+      color: rgb(255, 0, 191);
+    }
+}
+
+p:hover {
+    animation: solor-change 3s infinite;
+}
+
+@keyframes colorr-change {
+    0% {
+      color: rgb(100, 180, 218);
+    }
+  
+    50% {
+      color: rgba(29, 206, 74, 0.507);
+    }
+  
+    100% {
+      color: rgb(145, 12, 12);
+    }
+}
+
+h2:hover {
+    animation: colorr-change 3s infinite;
+}
+
+
+@keyframes color-channge {
+    0% {
+      color: rgb(190, 21, 100);
+    }
+  
+    50% {
+      color: rgb(0, 0, 0);
+    }
+  
+    100% {
+      color: rgb(200, 255, 0);
+    }
+}
+
+li:hover {
+    animation: color-channge 3s infinite;
+}
+
+div{
+    width: 630px;
+    height: 200px;
+}
+
+img{
+    width: 630px;
+}
+
+iframe{
+    width: 1080px;
+}
